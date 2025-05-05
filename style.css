@@ -7,39 +7,37 @@
 body, html {
   height: 100%;
   font-family: Arial, sans-serif;
-}
-
-.overlay {
-  background-image: url('IMG-20250505-WA0018.jpg'); /* Use your image file name */
+  background: url('IMG-20250505-WA0018.jpg') no-repeat center center fixed;
   background-size: cover;
-  background-position: center;
-  height: 100vh;
-  width: 100vw;
+  color: white;
+}
+.banner {
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6); /* semi-transparent */
   display: flex;
   align-items: center;
-  background-repeat: no-repeat;
+}
+
+.logo {
+  height: 50px;
+}
+
+/* Launching soon message */
+.launch-section {
+  height: calc(100% - 80px); /* Adjust depending on header size */
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  marign: 0;
-}
-.top-image {
-  width: 100px;
-  max-height: 20px;
-  object-fit: cover;
-  background-position: left;
+  align-items: center;
+  text-align: center;
 }
 
-
-h1 {
-  font-size: 3rem;
-  letter-spacing: 2px;
-  margin-bottom: 1rem;
+.launch-section h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
 }
 
-p {
-  font-size: 1.5rem;
-}
-
-.highlight {
-  font-size: 2.5rem;
-  font-weight: bold;
+.launch-section p {
+  font-size: 1.5em;
 }
