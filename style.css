@@ -10,19 +10,14 @@ body, html {
 }
 
 .overlay {
-  background-image: url('IMG-20250505-WA0018.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-}
-
-  
+  background-image: url('IMG-20250505-WA0018.jpg'); /* Use your image file name */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .content {
