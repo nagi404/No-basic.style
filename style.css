@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -11,10 +12,11 @@ body, html {
   background-size: cover;
   color: white;
 }
+
 .banner {
   width: 100%;
   padding: 20px;
-  background-color: white ;
+  background-color: rgba(0, 0, 0, 1); /* semi-transparent */
   display: flex;
   align-items: center;
 }
@@ -23,10 +25,9 @@ body, html {
   height: 50px;
 }
 
-/* Launching soon message */
 .launch-section {
-  height: calc(100% - 80px);
-  display: flex;
+  height: calc(100% - 80px); 
+  display: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -34,8 +35,8 @@ body, html {
 }
 
 .launch-section h1 {
-  font-size: 3em;
-  margin-bottom: 20px;
+  font-size: 1em;
+  margin-bottom: 10px;
 }
 
 .launch-section p {
