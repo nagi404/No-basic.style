@@ -16,7 +16,7 @@ body, html {
 .banner {
   width: 100%;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 1); /* semi-transparent */
+  background-color: rgba(0, 0, 0, 1);
   display: flex;
   align-items: center;
 }
