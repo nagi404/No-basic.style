@@ -22,9 +22,10 @@ body, html {
   marign: 0;
 }
 .top-image {
-  width: 100%;
-  max-height: 50px;
+  width: 100vw;
+  max-height: 20vh;
   object-fit: cover;
+  background-position: left;
 }
 .content {
   text-align: center;
