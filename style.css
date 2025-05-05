@@ -17,7 +17,9 @@ body, html {
   width: 100vw;
   display: flex;
   align-items: center;
+  background-repeat: no-repeat;
   justify-content: center;
+  marign: 0;
 }
 
 .content {
