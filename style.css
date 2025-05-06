@@ -1,54 +1,65 @@
+/* General Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+html, body {
+  height: 100%;
   font-family: Arial, sans-serif;
-  line-height: 1.6;
+  background-image: url('IMG-20250505-WA0018.jpg'); /* Replace with your image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
 }
 
-.navbar {
-  background-color: #eceff1;
-  color: #fff;
-  padding: 15px 20px;
+/* Header/Navbar */
+.site-header {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.navbar .logo {
-  font-size: 1.5em;
+.logo {
+  font-size: 1.8em;
   font-weight: bold;
+  color: white;
 }
 
-.navbar .nav-links {
+.navbar ul {
   list-style: none;
   display: flex;
   gap: 20px;
 }
 
-.navbar .nav-links li a {
-  color: #fff;
+.navbar ul li a {
+  color: white;
   text-decoration: none;
-  transition: color 0.3s;
+  transition: color 0.3s ease;
 }
 
-.navbar .nav-links li a:hover {
+.navbar ul li a:hover {
   color: #f0a500;
 }
 
-.content {
-  padding: 40px 20px;
-  background-color: #f4f4f4;
+/* Content */
+.main-content {
+  padding: 60px 20px;
   text-align: center;
-  background: url('IMG-20250505-WA0018.jpg');
 }
 
-.footer {
-  background-color: #eceff1;
-  color: #fff;
-  text-align: left;
+/* Footer */
+.site-footer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
   padding: 20px;
+  position: relative;
+  bottom: 0;
 }
