@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('IMG-20250505-WA0018.jpg') no-repeat center center fixed; 
+    background-image: url('IMG-20250505-WA0018.jpg') ; 
     background-size: cover;
     
     background-position: center;
