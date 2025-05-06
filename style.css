@@ -2,21 +2,16 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('IMG-20250505-WA0018.jpg'); 
+    background-image: url('IMG-20250505-WA0018.jpg') no-repeat center center fixed; 
     background-size: cover;
+    
     background-position: center;
     color: white;
 }
 
 /* Banner styling */
 .banner {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.0);
     text-align: center;
     padding: 40px 0;
-}
-.content {
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    margin: 40px;
-    border-radius: 8px;
 }
