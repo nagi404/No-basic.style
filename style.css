@@ -12,6 +12,6 @@ body {
 /* Banner styling */
 .banner {
     background-color: rgba(0, 0, 0, 0.0);
-    text-align: left;
-    padding: 100px 20px;
+    text-align: center;
+    padding: 20px 20;
 }
