@@ -1,65 +1,10 @@
-/* General Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
-html, body {
-  height: 100%;
-  font-family: Arial, sans-serif;
-  background-image: url('IMG-20250505-WA0018.jpg'); /* Replace with your image */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-}
-
-/* Header/Navbar */
-.site-header {
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 15px 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 1.8em;
-  font-weight: bold;
-  color: white;
-}
-
-.navbar ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.navbar ul li a {
-  color: white;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.navbar ul li a:hover {
-  color: #f0a500;
-}
-
-/* Content */
-.main-content {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-/* Footer */
-.site-footer {
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  text-align: center;
-  padding: 20px;
-  position: relative;
-  bottom: 0;
+body {
+  background-image: url('IMG-20250505-WA0018.jpg');
 }
