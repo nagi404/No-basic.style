@@ -88,14 +88,14 @@ body {
 
 .contact,
 .about {
-  min-height: 200px;
+  min-height: 100px;
   padding: 32px;
-  color: white;
+  color: black;
 }
 .about h2,
 .contact h2 {
   font-size: 64px;
-  font-weight: 300;
+  font-weight: 200;
 }
 .about p,
 .contact p {
