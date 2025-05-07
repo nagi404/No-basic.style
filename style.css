@@ -4,7 +4,7 @@ body, html {
       font-family: Arial, sans-serif;
     }
     header, footer {
-      background-color: #333;
+      background-color: #fff;
       color: white;
       padding: 1em;
       text-align: center;
@@ -14,7 +14,7 @@ body, html {
     }
     .video-container {
       width: 100%;
-      max-height: 400px;
+      max-height: 600px;
       overflow: hidden;
     }
     video {
@@ -22,17 +22,6 @@ body, html {
       height: auto;
       display: block;
     }
-    .products {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1em;
-      margin-top: 1em;
-    }
-    .product {
-      flex: 1 1 calc(25% - 1em);
-      border: 1px solid #ccc;
-      padding: 1em;
-      text-align: center;
     }
     @media (max-width: 768px) {
       .product {
