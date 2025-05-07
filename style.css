@@ -3,7 +3,7 @@ body, html {
       padding: 0;
       font-family: Arial, sans-serif;
     }
-    bg-img {
+    .bg-img {
   /* The image used */
   background-image: url("IMG-20250505-WA0017.jpg");
 
