@@ -80,15 +80,15 @@ body {
   display: flex;
 }
 .contact {
-  background-color: #515603;
+  background-color:#F5F5F5;
 }
 .about {
-  background-color: #722300;
+  background-color: #F5F5F5;
 }
 
 .contact,
 .about {
-  min-height: 300px;
+  min-height: 200px;
   padding: 32px;
   color: white;
 }
