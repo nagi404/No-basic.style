@@ -4,7 +4,7 @@ body, html {
       font-family: Arial, sans-serif;
     }
     header, footer {
-      background-color: #333;
+      background-color: #bdbdbd;
       color: white;
       padding: 1em;
       text-align: center;
@@ -14,7 +14,7 @@ body, html {
     }
     .video-container {
       width: 100%;
-      max-height: 500px;
+      max-height: 550px;
       overflow: hidden;
     }
     video {
